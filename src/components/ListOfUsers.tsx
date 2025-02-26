@@ -12,32 +12,6 @@ import {
 // import { useAppSelector } from "../hooks/store";
 // import { useUserActions } from "../hooks/useUserActions";
 
-const users: {
-  id: string;
-  name: string;
-  email: string;
-  github: string;
-}[] = [
-  {
-    id: "1",
-    name: "Yazman Rodriguez",
-    email: "yazmanito@gmail.com",
-    github: "yazmanito",
-  },
-  {
-    id: "2",
-    name: "John Doe",
-    email: "leo@gmail.com",
-    github: "leo",
-  },
-  {
-    id: "3",
-    name: "Jane Doe",
-    email: "jane@gmail.com",
-    github: "jane",
-  },
-];
-
 export function ListOfUsers() {
   // const users = useAppSelector((state) => state.users);
   // const { removeUser } = useUserActions();

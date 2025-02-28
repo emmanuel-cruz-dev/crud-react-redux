@@ -13,9 +13,9 @@ export interface UserWithId extends User {
 const initialState: UserWithId[] = [
   {
     id: "1",
-    name: "Yazman Rodriguez",
+    name: "Emmanuel Cruz",
     email: "yazmanito@gmail.com",
-    github: "yazmanito",
+    github: "emmanuel-cruz-dev",
   },
   {
     id: "2",
@@ -25,9 +25,9 @@ const initialState: UserWithId[] = [
   },
   {
     id: "3",
-    name: "Jane Doe",
-    email: "jane@gmail.com",
-    github: "jane",
+    name: "Midu Dev",
+    email: "midudev@gmail.com",
+    github: "midudev",
   },
 ];
 

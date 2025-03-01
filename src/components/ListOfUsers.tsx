@@ -9,13 +9,13 @@ import {
   TableRow,
   Title,
 } from "@tremor/react";
-import { useSelector } from "react-redux";
+import { useAppSelector } from "../hooks/store";
 
 // import { useAppSelector } from "../hooks/store";
 // import { useUserActions } from "../hooks/useUserActions";
 
 export function ListOfUsers() {
-  const users = useSelector((state) => state.users);
+  const users = useAppSelector((state) => state.users);
   // const { removeUser } = useUserActions();
 
   return (

@@ -1,6 +1,6 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 
-type UserId = string;
+export type UserId = string;
 
 export interface User {
   name: string;
@@ -45,3 +45,5 @@ export const usersSlice = createSlice({
 });
 
 export default usersSlice.reducer;
+
+export const { deleteUserById } = usersSlice.actions;

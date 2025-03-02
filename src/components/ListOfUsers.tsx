@@ -11,7 +11,6 @@ import {
 } from "@tremor/react";
 import { useAppSelector } from "../hooks/store";
 
-// import { useAppSelector } from "../hooks/store";
 // import { useUserActions } from "../hooks/useUserActions";
 
 export function ListOfUsers() {

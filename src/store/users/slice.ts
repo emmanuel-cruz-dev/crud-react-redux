@@ -35,9 +35,8 @@ export interface UserWithId extends User {
 
 const initialState: UserWithId[] = () => {
   const persistedState = localStorage.getItem("__redux__state__");
-  if (persistedState) {
-    return JSON.parse(persistedState).users;
-  }
+  if (persistedState) return JSON.parse(persistedState).users;
+  return DEFAULT_STATE;
 };
 
 export const usersSlice = createSlice({

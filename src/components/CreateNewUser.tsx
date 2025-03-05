@@ -5,7 +5,9 @@ import React from "react";
 export function CreateNewUser() {
   const { addUser } = useUserActions();
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormEvent>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
     const form = event.target;
     const formData = new FormData(form);
 

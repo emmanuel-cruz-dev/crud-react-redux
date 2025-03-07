@@ -11,7 +11,7 @@ export function CreateNewUser() {
 
     setResult(null);
 
-    const form = event.target;
+    const form = event.target as HTMLFormElement;
     const formData = new FormData(form);
 
     const name = formData.get("name") as string;
